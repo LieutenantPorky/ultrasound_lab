@@ -22,5 +22,5 @@ plt.thetalabel('Angle ')
 plt.show()
 
 while True:
-    
+
     ax.plot()

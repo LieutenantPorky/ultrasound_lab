@@ -14,17 +14,16 @@ void setup() {
   Wire.begin();
   mpu6050.begin();
   mpu6050.calcGyroOffsets(true);
+  Serial.println('a');
 }
 
 void loop() {
   mpu6050.update();
 
   if(millis() - timer > 100){
-    Serial.println(mpu6050.getTemp()); 
-
-    Serial.println(mpu6050.getAngleX());
-    Serial.println(mpu6050.getAngleY());
-    Serial.println(mpu6050.getAngleZ());
+    
+    Serial.print(mpu6050.getAngleZ());
+    Serial.print(',');
 
     digitalWrite(trigger, HIGH);
     digitalWrite(trigger, LOW);
