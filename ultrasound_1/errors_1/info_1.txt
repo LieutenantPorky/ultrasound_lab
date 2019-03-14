@@ -1,0 +1,15 @@
+horizontal distance: 71 cm
+
+Size of box:
+
+21 cm width
+34 cm height
+
+height of sensor:
+22.3cm
+
+#sensor offset is frontal distance between gyro and ultrasound in cm
+sensor_offset = 0.0
+
+#lateral sensor offset is distance to gyro on y axis (eg when mounting on holder)
+lateral_offset = 6.3

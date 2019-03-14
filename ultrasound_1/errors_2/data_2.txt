@@ -1,0 +1,7 @@
+#sensor offset is frontal distance between gyro and ultrasound in cm
+sensor_offset = 0.0
+
+#lateral sensor offset is distance to gyro on y axis (eg when mounting on holder)
+lateral_offset = 8.5
+
+distance to box = 56 cm
